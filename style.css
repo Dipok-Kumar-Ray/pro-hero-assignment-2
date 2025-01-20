@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* css styling start  */
+
+.container{
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-icon{
+    display: flex;
+    text-align: left;
+}
+.school{
+    color: rgb(17, 17, 17);
+    font-size: 32px;
+    font-weight: 700;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+}
+.btn-primary{
+   margin-top: 2rem;
+   justify-content: center;
+   align-items: center;
+}
+.home{
+    color: rgb(254, 163, 1);
+    font-size: 20px;
+    font-weight: 500;
+}
+.about{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+}
+.facilities{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(5, 212, 223);
+}
+.admission{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(93, 88, 239) ;
+}
+.contact-btn{
+    background-color: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 12px;
+    border: none;
+}
+.students{
+    margin: 0px 100px;
+    display: flex;
+    gap: 50px;
+}
+.student-container{
+    margin-top: 140px;
+}  
+.student-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
