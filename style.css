@@ -329,3 +329,34 @@
 #idfive{
     background:rgb(149, 178, 38) ;
 }
+.last-section{
+    margin: 0px 100px;
+    text-align: center;
+   
+}
+.last-btn{
+
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-one{
+    display: flex;
+    flex-direction: column;
+
+}
+.peralage{
+    text-wrap: wrap;
+}
+.footer-out{
+    display:flex;
+}
