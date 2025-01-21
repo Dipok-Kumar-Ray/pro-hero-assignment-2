@@ -4,6 +4,22 @@
 
 /* css styling start  */
 
+.hide-sec{
+    display: none;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+}
+#vigation{
+    height: 50px;
+    width: 50px;
+}
+
+
+body{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+
 .container{
     margin: 0px 100px;
     display: flex;
@@ -154,6 +170,7 @@
     font-size: 15px;
     font-weight: 500;
     color: rgb(128, 128, 128);
+    
 }
 .first-btn{
     font-size: 15px;
@@ -162,6 +179,7 @@
     border: none;
     border-radius: 8px;
     padding: 6px;
+    background: transparent;
 }
 .second-btn{
     font-size: 15px;
@@ -170,6 +188,7 @@
     border: none;
     border-radius: 8px;
     padding: 6px;
+    background: transparent;
 }
 .third-btn{
     font-size: 15px;
@@ -178,6 +197,7 @@
     border: none;
     border-radius: 8px;
     padding: 6px;
+    background: transparent;
 }
 .arrows{
     margin: 0px 100px;
@@ -345,18 +365,105 @@
     padding: 8px;
 }
 .footer-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    background-color: rgb(1, 172, 253);
+    /* display: flex; */
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px;
+    
 }
 .footer-one{
     display: flex;
     flex-direction: column;
-
+    /* border: 2px solid red; */
+    padding: 8px;
+}
+.footer-two, .footer-three{
+    padding-left: 110px;
 }
 .peralage{
-    text-wrap: wrap;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   font-weight: 400;
+   /* text-align: center; */
 }
 .footer-out{
     display:flex;
+}
+.kid-edu{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-me{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+}
+.stiling{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* media queries styling start  */
+
+
+@media screen and (max-width:390px){
+    .container, .navbar{
+        display:none;
+    }
+    .students{
+       
+        margin: none;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    /* .hero{
+        height: 70x;
+        width: 70px;
+    } */
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .arrows{
+        justify-content: center;
+        align-items: center;
+    }
+    .months{
+        flex-direction: column;
+    }
+    .big-box{
+        display: none;
+    }
+    .four-box{
+        /* flex-direction: column; */
+        grid-template-columns: repeat(1, 1fr);
+        margin: none;
+    }
+    .last-section{
+        text-align: center;
+    }
+    .footer-section{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hide-sec{
+        display:block;
+        /* flex-direction: column;
+        justify-content: space-between; */
+        
+    }
+    #vigation{
+        height: 50px;
+        width: 50px;
+    }
+    
 }
