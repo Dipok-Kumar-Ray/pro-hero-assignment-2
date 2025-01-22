@@ -5,10 +5,11 @@
 /* css styling start  */
 
 .hide-sec{
+    /* margin: 0px 50px;; */
     display: none;
-    justify-content: space-between;
+    /* justify-content: space-between;   
     height: 50px;
-    width: 50px;
+    width: 50px; */
 }
 #vigation{
     height: 50px;
@@ -18,6 +19,8 @@
 
 body{
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-color: rgba(254, 163, 1, 0.3)
+    rgba(255, 255, 255, 0.3);
 }
 
 .container{
@@ -243,8 +246,8 @@ body{
 }
 
 .big-box{
-    height: 550px;
-    width: 440px;
+    /* height: 550px;
+    width: 440px; */
     background: rgb(217, 217, 217);
     border-radius: 15px;
     text-align: center;
@@ -256,7 +259,7 @@ body{
     color: rgb(0, 0, 0);
 }
 .img-border{
-    width: 440px;
+    width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -270,16 +273,16 @@ body{
     padding-left: 10px;
 }
 .imgone{
-    height:auto;
-    width: 270px;
+    /* height:auto;
+    width: 270px; */
     border-radius: 15px 15px 0px 0px;
 }
 
 
 .box-one{
     background: rgb(217, 217, 217);
-    height: 265px;
-    width: 270px;
+    /* height: 265px;
+    width: 270px; */
     border-radius: 15px;
     text-align: center;
     align-items: center;
@@ -288,8 +291,8 @@ body{
 }
 .box-two{
     background: rgb(217, 217, 217);
-    height: 265px;
-    width: 270px;
+    /* height: 265px;
+    width: 270px; */
     border-radius: 15px;
     text-align: center;
     align-items: center;
@@ -298,8 +301,8 @@ body{
 }
 .box-three{
     background: rgb(217, 217, 217);
-    height: 265px;
-    width: 270px;
+    /* height: 265px;
+    width: 270px; */
     border-radius: 15px;
     text-align: center;
     align-items: center;
@@ -308,8 +311,8 @@ body{
 }
 .box-four{
     background: rgb(217, 217, 217);
-    height: 265px;
-    width: 270px;
+    /* height: 265px;
+    width: 270px; */
     border-radius: 15px;
     text-align: center;
     align-items: center;
@@ -424,46 +427,75 @@ body{
         align-items: center;
         text-align: center;
     }
-    /* .hero{
-        height: 70x;
-        width: 70px;
-    } */
+    .student-container{
+       width: 250px;
+       margin: 0;
+    }
+    .hero{
+        width: 250px;
+    }
     .header{
+        width: 250px;
         display: flex;
         flex-direction: column;
-    }
-    .arrows{
-        justify-content: center;
+        /* margin: 0px 60px; */
         align-items: center;
     }
+    .arrows{
+        display:none;
+    }
     .months{
+        margin-left: 0px;
+        display: flex;
+        width: 250px;
         flex-direction: column;
+        align-items: center;
+        margin: 0px 60px;
     }
     .big-box{
         display: none;
     }
     .four-box{
-        /* flex-direction: column; */
+        width: 250px;
         grid-template-columns: repeat(1, 1fr);
         margin: none;
     }
     .last-section{
+        width: 250px;
         text-align: center;
     }
     .footer-section{
-        /* flex-direction: column; */
+        width: 250px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+        /* display: flex;
+        flex-direction: column; */
     }
     .hide-sec{
-        display:block;
-        /* flex-direction: column;
-        justify-content: space-between; */
-        
-    }
-    #vigation{
+        /* width: 250px; */
+        /* display:block; */
+       
+        justify-content: space-between;
         height: 50px;
         width: 50px;
+        display: flex;
     }
-    
+    /* #vigation{
+        height: 50px;
+        width: 50px;
+    } */
+    .last-btn{
+        margin: 0px 50px;
+        align-items: center;
+    }
+   
+    .talatali{
+        margin-left: 255px;
+        /* margin-top: -130px; */
+    } 
+    /* .parina{
+        margin-top: 25px;
+    }  */
+
 }
